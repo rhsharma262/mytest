@@ -1,7 +1,0 @@
-name: ip-172-31-44-164
-on: [push]
-jobs:  
-  deploy:    
-    runs-on: self-hosted
-    steps:
-      - uses: actions/checkout@v2
